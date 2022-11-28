@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  margin: 0 148px;
+  width: 100%;
+  min-height: 100%;
+  color: #ffffff;
+  background-color: #202123;
+}

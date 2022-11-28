@@ -1,0 +1,12 @@
+.lead {
+  padding-top: 58px;
+  color: #fff;
+  font-family: "Inter", arial, sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead{
+    padding-top: 48px;
+  }
+}

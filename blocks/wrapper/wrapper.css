@@ -1,0 +1,21 @@
+.wrapper {
+  margin: auto;
+  max-width: 984px;
+  min-width: 320px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper{
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .wrapper{
+    padding-right: 2px;
+    padding-left: -2px;
+  }
+}

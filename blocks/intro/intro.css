@@ -1,0 +1,30 @@
+.intro {
+  margin-top: 92px;
+  max-width: 690px;
+  color: #fff;
+  font-family: "Inter", arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .intro{
+    max-width: 720px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro{
+    padding-top: calc(64px + (92 - 64) * ((100vw - 320px) / (400 - 320)));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro{
+    margin-top: 0;
+    padding-top: 64px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}

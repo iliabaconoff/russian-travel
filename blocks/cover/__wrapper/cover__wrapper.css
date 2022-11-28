@@ -1,0 +1,21 @@
+.cover__wrapper {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 560px;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 560px) {
+  .cover__wrapper {
+    max-width: calc(250px + (560 - 250) * ((100vw - 320px) / (560 - 320)));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__wrapper {
+    max-width: 250px;
+  }
+}

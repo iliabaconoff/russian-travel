@@ -1,0 +1,13 @@
+.nav__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 510px) {
+  .nav__list{
+    flex-direction: column;
+  }
+}
