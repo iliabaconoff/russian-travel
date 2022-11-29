@@ -8,4 +8,4 @@ yandex univercity project #3
 - css(flexbox, grid)
 - BEM
 
-https://iliabaconoff.github.io/yandex-third-project/
+https://iliabaconoff.github.io/russian-travel/
