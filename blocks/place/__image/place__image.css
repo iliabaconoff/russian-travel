@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 460px;
   height: auto;
-  aspect-ratio:inherit;
+  aspect-ratio: 1 / 1;
 }
 
 @media screen and (max-width: 1024px) {
