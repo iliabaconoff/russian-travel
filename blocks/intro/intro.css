@@ -1,5 +1,5 @@
 .intro {
-  margin-top: 92px;
+  margin-top: 114px;
   max-width: 690px;
   color: #fff;
   font-family: "Inter", arial, sans-serif;
@@ -10,7 +10,7 @@
     max-width: 720px;
     padding-right: 24px;
     padding-left: 24px;
-    /* padding-top: 110px; */
+    margin-top: 88px;
   }
 }
 
