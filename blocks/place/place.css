@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  padding-top: 92px;
+  padding-top: 80px;
   color: #fff;
   font-family: 'Inter', arial, sans-serif;
   grid-column-gap: 40px;
@@ -20,10 +20,16 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    padding-top: 70px;
+    padding-top: 73px;
     padding-right: 24px;
     padding-left: 24px;
     grid-column-gap: 28px;
+  }
+  .place:first-child{
+    padding-top: 88px;
+  }
+  .place:last-child{
+    padding-top: 75px;
   }
 }
 
