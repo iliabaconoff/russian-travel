@@ -12,10 +12,3 @@
     padding-left: 0;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .wrapper{
-    padding-right: 2px;
-    padding-left: -2px;
-  }
-}
