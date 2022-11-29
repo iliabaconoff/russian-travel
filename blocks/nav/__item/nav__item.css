@@ -1,9 +1,0 @@
-.nav__item {
-  margin-right: 18px;
-}
-
-@media screen and (max-width:700px) {
-  .nav__item{
-    margin-bottom: 32px;
-  }
-}

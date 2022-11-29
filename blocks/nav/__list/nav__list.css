@@ -4,10 +4,12 @@
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  gap: 18px;
 }
 
 @media screen and (max-width: 510px) {
   .nav__list{
     flex-direction: column;
+    gap: 32px;
   }
 }
