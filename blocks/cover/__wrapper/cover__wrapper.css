@@ -4,6 +4,8 @@
   top: 50%;
   left: 50%;
   max-width: 560px;
+  width: 100%;
+  height: auto;
   color: #fff;
   transform: translate(-50%, -50%);
 }
@@ -16,6 +18,8 @@
 
 @media screen and (max-width: 320px) {
   .cover__wrapper {
-    max-width: 250px;
+    max-width: calc(100% - 32px);
+    width: 100%;
+    padding: 0 16px;
   }
 }

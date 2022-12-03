@@ -1,5 +1,13 @@
 .cover__link {
   display: block;
+  background-image: url('../../../images/cover_bg.png');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1189px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 0.625;
 }
 
 .cover__link::before {
@@ -17,4 +25,12 @@
 
 .cover__link:hover::before {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__link{
+    max-width: 320px;
+    padding: 0;
+    margin: 0;
+  }
 }
